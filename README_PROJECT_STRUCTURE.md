@@ -2,8 +2,9 @@
 
 Este documento descreve a estrutura de diretórios criada para o projeto de classificação de churn.
 
+**Origem dos dados:** [Kaggle - Churn Modelling Dataset](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
+
 - data/
-  - raw/: dados brutos
   - interim/: dados intermediários (limpeza, imputação)
   - processed/: datasets prontos para modelagem
 - notebooks/: análises exploratórias e protótipos
@@ -18,4 +19,3 @@ Este documento descreve a estrutura de diretórios criada para o projeto de clas
   - metrics/: relatórios e métricas
 - scripts/: scripts de linha de comando (treino, previsão)
 - docs/: documentação adicional
-
