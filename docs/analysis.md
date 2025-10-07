@@ -169,3 +169,9 @@ A partir dessas observações, elaborei perguntas que poderiam ser respondidas p
   - Proporção de clientes que **deram churn**: `20.37%`
 
 ---
+
+### 3️⃣ Existe alguma relação linear entre as features?
+- **Método:** Pairplot
+- **Resultado:** _(Colocar gráfico aqui)_
+
+---
