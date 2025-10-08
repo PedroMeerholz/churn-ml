@@ -29,3 +29,5 @@ with mlflow.start_run():
     df.head().to_csv(local_path, index=False)
     mlflow.log_artifact(local_path)
     os.remove(local_path)
+
+    df.to_csv(local_path, index=False)
