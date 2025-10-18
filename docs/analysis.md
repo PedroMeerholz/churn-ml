@@ -81,7 +81,7 @@ A partir dessas observações, elaborei perguntas que poderiam ser respondidas p
 - **Resultado:**  
   - statistics: `0.471338`  
   - p-value: `0.492372`  
-  - **Interpretação:** Com alpha = 0.05, falhamo em rejeitar h0.
+  - **Interpretação:** Com alpha = 0.05, falhamos em rejeitar h0.
 
 ---
 
@@ -98,7 +98,7 @@ A partir dessas observações, elaborei perguntas que poderiam ser respondidas p
 - **Resultado:**  
   - statistics: `1.400058`  
   - p-value: `0.161527`  
-  - **Interpretação:** Com alpha = 0.05, falhamo em rejeitar h0.
+  - **Interpretação:** Com alpha = 0.05, falhamos em rejeitar h0.
 
 ---
 
@@ -138,7 +138,7 @@ A partir dessas observações, elaborei perguntas que poderiam ser respondidas p
 - **Resultado:**  
   - statistics: `1.400058`  
   - p-value: `0.161527`  
-  - **Interpretação:** Com alpha = 0.05, falhamo em rejeitar h0.
+  - **Interpretação:** Com alpha = 0.05, falhamos em rejeitar h0.
 
 ---
 
