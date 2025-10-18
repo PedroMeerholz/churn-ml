@@ -5,6 +5,7 @@ Este documento descreve a estrutura de diretórios criada para o projeto de clas
 **Origem dos dados:** [Kaggle - Churn Modelling Dataset](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
 
 - data/
+  - analysis/: gráficos e .csv resultantes da análise de dados
   - processed/: datasets prontos para modelagem
 - notebooks/: análises exploratórias e protótipos
 - src/
@@ -13,8 +14,5 @@ Este documento descreve a estrutura de diretórios criada para o projeto de clas
   - models/: treino, avaliação e persistência de modelos
   - pipelines/: orquestração de passos de ML (treino/inferência)
 - models/: artefatos de modelos treinados (salvos)
-- reports/
-  - figures/: gráficos gerados
-  - metrics/: relatórios e métricas
 - scripts/: scripts de linha de comando (treino, previsão)
 - docs/: documentação adicional
