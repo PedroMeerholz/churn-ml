@@ -8,8 +8,6 @@
 - [Solução Proposta](#solução-proposta)
 - [Métricas de Sucesso](#métricas-de-sucesso)
 - [Público-Alvo](#público-alvo)
-- [Arquitetura e MLOps](#arquitetura-e-mlops)
-- [Contato](#contato)
 
 ---
 

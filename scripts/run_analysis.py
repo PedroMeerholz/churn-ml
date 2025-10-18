@@ -240,3 +240,10 @@ with mlflow.start_run() as run:
     class_proportion.to_csv(local_path, index=True)
     mlflow.log_artifact(local_path=local_path, artifact_path=artifact_path)
     os.remove(local_path)
+
+    # Pergunta 3: Existe alguma relação linear entre as features?
+    local_path = os.path.join(data_quality_dir_path, 'pairplot.png')
+    sns.pairplot(df, hue='Exited')
+    plt.savefig(local_path)
+    mlflow.log_artifact(local_path=local_path, artifact_path=artifact_path)
+    os.remove(local_path)

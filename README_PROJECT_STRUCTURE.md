@@ -5,7 +5,6 @@ Este documento descreve a estrutura de diretórios criada para o projeto de clas
 **Origem dos dados:** [Kaggle - Churn Modelling Dataset](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
 
 - data/
-  - interim/: dados intermediários (limpeza, imputação)
   - processed/: datasets prontos para modelagem
 - notebooks/: análises exploratórias e protótipos
 - src/
