@@ -1,4 +1,3 @@
-
 # Análise de Dados
 
 Para iniciar a análise de dados, verifiquei algumas informações básicas:
