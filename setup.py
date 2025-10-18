@@ -10,3 +10,7 @@ data_dir = os.environ['DATA_DIR_PATH']
 os.makedirs(data_dir, exist_ok=True)
 os.makedirs(os.path.join(data_dir, 'analysis'), exist_ok=True)
 os.makedirs(os.path.join(data_dir, 'processed'), exist_ok=True)
+
+os.makedirs(os.path.join('src'), exist_ok=True)
+os.makedirs(os.path.join('src', 'models'), exist_ok=True)
+os.makedirs(os.path.join('src', 'pipelines'), exist_ok=True)
