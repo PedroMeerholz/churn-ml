@@ -43,14 +43,13 @@ O sistema será baseado em um modelo de classificação binária, capaz de disti
 
 ### Métricas de Negócio
 
-- Redução da taxa de churn trimestral em X%
+- Redução do prejuízo financeiro associado à falta de intervenção em casos de churn (meta: redução de pelo menos 20% nas perdas com churn no primeiro ano)
 
 ### Métricas do Modelo
 
 - **Recall (Sensibilidade):** Prioridade alta para identificar o máximo de clientes que realmente darão churn.
 - **Precision:** Minimizar falsos positivos para otimizar recursos da equipe de retenção.
 - **F1-Score:** Equilíbrio entre precision e recall.
-- **AUC-ROC:** Avaliação da capacidade discriminatória do modelo.
 
 ---
 

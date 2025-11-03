@@ -5,16 +5,13 @@ Este documento descreve a estrutura de diretórios criada para o projeto de clas
 **Origem dos dados:** [Kaggle - Churn Modelling Dataset](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
 
 - data/
-  - processed/: datasets prontos para modelagem
+  - analysis/: arquivos temporários referente a gráficos e .csv resultantes da análise de dados
+  - processed/: arquivos temporários referente a tratamento de dados, treinamento e otimização de modelos
 - notebooks/: análises exploratórias e protótipos
 - src/
-  - data/: carregamento, validação e transformação inicial de dados
-  - features/: engenharia de atributos e seleção de variáveis
+  - analysis/: análise de dados
   - models/: treino, avaliação e persistência de modelos
+  - preprocessing/: pré-processamento de dados
   - pipelines/: orquestração de passos de ML (treino/inferência)
-- models/: artefatos de modelos treinados (salvos)
-- reports/
-  - figures/: gráficos gerados
-  - metrics/: relatórios e métricas
-- scripts/: scripts de linha de comando (treino, previsão)
+  - tracking/: scripts de criação dos artefatos do MLFlow
 - docs/: documentação adicional

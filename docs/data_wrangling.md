@@ -1,4 +1,4 @@
-# 🟦 Pré-processamento de Dados e Feature Engineering
+# Pré-processamento de Dados e Feature Engineering
 
 ### 1️⃣ Considerações Iniciais
 - O dataset **não possui dados nulos ou duplicatas**
