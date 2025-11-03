@@ -2,4 +2,5 @@
 .env
 mlartifacts/
 mlruns/
-/data/processed/*.csv
+/data
+/models

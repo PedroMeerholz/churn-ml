@@ -11,20 +11,7 @@
 
 ---
 
-#### **a) Logistic Regression**
-
-- **Métricas:**
-  - Classe 0: precisão = 0.8987, revocação = 0.6834, f1-score = 0.7764, suporte = 1194
-  - Classe 1: precisão = 0.3615, revocação = 0.6993, f1-score = 0.4766, suporte = 306
-  - **Acurácia geral:** 0.6867 (total de 1500 amostras)
-
-- **Matriz de confusão:**
-  - Real 0, Prev 0: 816 | Real 0, Prev 1: 378
-  - Real 1, Prev 0: 92  | Real 1, Prev 1: 214
-
----
-
-#### **b) Random Forest Classifier**
+#### **a) Random Forest Classifier**
 
 - **Métricas:**
   - Classe 0: precisão = 0.9254, revocação = 0.7789, f1-score = 0.8458, suporte = 1194
@@ -37,7 +24,7 @@
 
 ---
 
-#### **c) Gradient Boosting**
+#### **b) Gradient Boosting**
 
 - **Métricas:**
   - Classe 0: precisão = 0.9302, revocação = 0.7814, f1-score = 0.8493, suporte = 1194
@@ -50,7 +37,7 @@
 
 ---
 
-#### **d) AdaBoost**
+#### **c) AdaBoost**
 
 - **Métricas:**
   - Classe 0: precisão = 0.9156, revocação = 0.7814, f1-score = 0.8432, suporte = 1194
@@ -63,7 +50,7 @@
 
 ---
 
-#### **e) Bagging**
+#### **d) Bagging**
 
 - **Métricas:**
   - Classe 0: precisão = 0.9159, revocação = 0.7839, f1-score = 0.8448, suporte = 1194
@@ -76,7 +63,7 @@
 
 ---
 
-#### **f) Extra Trees**
+#### **e) Extra Trees**
 
 - **Métricas:**
   - Classe 0: precisão = 0.9196, revocação = 0.7755, f1-score = 0.8414, suporte = 1194
@@ -89,33 +76,7 @@
 
 ---
 
-#### **g) SVM**
-
-- **Métricas:**
-  - Classe 0: precisão = 0.8429, revocação = 0.4045, f1-score = 0.5467, suporte = 1194
-  - Classe 1: precisão = 0.2330, revocação = 0.7059, f1-score = 0.3504, suporte = 306
-  - **Acurácia geral:** 0.4660
-
-- **Matriz de confusão:**
-  - Real 0, Prev 0: 483 | Real 0, Prev 1: 711
-  - Real 1, Prev 0: 90  | Real 1, Prev 1: 216
-
----
-
-#### **h) KNN**
-
-- **Métricas:**
-  - Classe 0: precisão = 0.8029, revocação = 0.5184, f1-score = 0.6300, suporte = 1194
-  - Classe 1: precisão = 0.2112, revocação = 0.5033, f1-score = 0.2976, suporte = 306
-  - **Acurácia geral:** 0.5153
-
-- **Matriz de confusão:**
-  - Real 0, Prev 0: 619 | Real 0, Prev 1: 575
-  - Real 1, Prev 0: 152 | Real 1, Prev 1: 154
-
----
-
-#### **i) XGBoost**
+#### **f) XGBoost**
 
 - **Métricas:**
   - Classe 0: precisão = 0.9183, revocação = 0.7630, f1-score = 0.8335, suporte = 1194
@@ -128,7 +89,7 @@
 
 ---
 
-#### **j) LightGBM**
+#### **g) LightGBM**
 
 - **Métricas:**
   - Classe 0: precisão = 0.9224, revocação = 0.7663, f1-score = 0.8371, suporte = 1194
@@ -183,11 +144,6 @@
 | 12        | Optmized_AdaBoost              | R$ 142.466,80       |
 | 13        | Optmized_Bagging               | R$ 143.129,60       |
 | 14        | Optmized_Extra Trees           | R$ 148.919,20       |
-| 15        | Baseline_Logistic Regression   | R$ 159.748,80       |
-| 16        | Optmized_Logistic Regression   | R$ 205.595,80       |
-| 17        | Baseline_SVM                   | R$ 234.756,00       |
-| 18        | Optmized_KNN                   | R$ 243.600,20       |
-| 19        | Baseline_KNN                   | R$ 252.542,80       |
 
 ---
 
